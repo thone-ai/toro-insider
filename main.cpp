@@ -17,7 +17,7 @@ private:
 
 public:
     AI(int inputSize, int outputSize, int hiddenLayers, int hiddenLayerSize) {
-        // Configurar la red neuronal
+        
         network.addLayer(inputSize);
         for (int i = 0; i < hiddenLayers; ++i) {
             network.addLayer(hiddenLayerSize);
@@ -61,7 +61,7 @@ public:
                 }
 
                 std::string line = inputString.str() + outputString.str();
-                line.pop_back(); // Remove trailing comma
+                line.pop_back(); 
 
                 file << line << std::endl;
             }
