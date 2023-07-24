@@ -1,0 +1,6 @@
+sentence,label
+What is your name?,name
+How are you doing today?,mood
+What do you like to do for fun?,hobby
+What is your favorite programming language?,language
+How old are you?,age
