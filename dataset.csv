@@ -14,8 +14,6 @@ pregunta,respuesta
 ¿Cuál es la capital de Armenia?,La capital de Armenia es Ereván.
 ¿Cuál es la capital de Australia?,La capital de Australia es Canberra.
 ¿Cuál es la capital de Austria?,La capital de Austria es Viena.
-¿Cuál es la capital de Azerbaiyán?,La capital de Azerbaiyán es Bakú.
-¿Cuál es la capital de Bahamas?,La capital de Bahamas es Nasáu.
 ¿Cuál es la capital de Bangladés?,La capital de Bangladés es Daca.
 ¿Cuál es la capital de Barbados?,La capital de Barbados es Bridgetown.
 ¿Cuál es la capital de Baréin?,La capital de Baréin es Manama.
@@ -41,24 +39,21 @@ pregunta,respuesta
 ¿Cuál es la capital de Costa Rica?,La capital de Costa Rica es San José.
 ¿Cuál es la capital de Croacia?,La capital de Croacia es Zagreb.
 ¿Cuál es la capital de Cuba?,La capital de Cuba es La Habana.
-¿Cuál es la capital de Dinamarca?,La capital de Dinamarca es Copenhague.
 ¿Cuál es la capital de Dominica?,La capital de Dominica es Roseau.
-¿Cuál es la capital de Ecuador?,La capital de Ecuador es Quito.
 ¿Cuál es la capital de Egipto?,La capital de Egipto es El Cairo.
 ¿Cuál es la capital de El Salvador?,La capital de El Salvador es San Salvador.
 ¿Cuál es la capital de Emiratos Árabes Unidos?,La capital de Emiratos Árabes Unidos es Abu Dabi.
 ¿Cuál es la capital de Eritrea?,La capital de Eritrea es Asmara.
 ¿Cuál es la capital de Eslovaquia?,La capital de Eslovaquia es Bratislava.
-¿Cuál es la capital de Eslovenia?,La capital de Eslovenia es Liubliana.
 ¿Cuál es la capital de España?,La capital de España es Madrid.
 ¿Cuál es la capital de Estonia?,La capital de Estonia es Tallin.
 ¿Cuál es la capital de Eswatini (Suazilandia)?,La capital de Eswatini (Suazilandia) es Lobamba.
 ¿Cuál es la capital de Etiopía?,La capital de Etiopía es Adís Abeba.
-¿Cuál es la capital de Filipinas?,La capital de Filipinas es Manila.
-¿Cuál es la capital de Gabón?,La capital de Gabón es Libreville.
+¿Cuál es la capital de Fiyi?,La capital de Fiyi es Suva.
+¿Cuál es la capital de Finlandia?,La capital de Finlandia es Helsinki.
+¿Cuál es la capital de Gambia?,La capital de Gambia es Banjul.
 ¿Cuál es la capital de Georgia?,La capital de Georgia es Tiflis.
 ¿Cuál es la capital de Ghana?,La capital de Ghana es Acra.
-¿Cuál es la capital de Grecia?,La capital de Grecia es Atenas.
 ¿Cuál es la capital de Guatemala?,La capital de Guatemala es Ciudad de Guatemala.
 ¿Cuál es la capital de Guinea?,La capital de Guinea es Conakry.
 ¿Cuál es la capital de Guinea-Bisáu?,La capital de Guinea-Bisáu es Bissau.
@@ -97,19 +92,12 @@ pregunta,respuesta
 ¿Cuál es la capital de Malasia?,La capital de Malasia es Kuala Lumpur.
 ¿Cuál es la capital de Malaui?,La capital de Malaui es Lilongüe.
 ¿Cuál es la capital de Maldivas?,La capital de Maldivas es Malé.
-¿Cuál es la capital de Malí?,La capital de Malí es Bamako.
 ¿Cuál es la capital de Malta?,La capital de Malta es La Valeta.
-¿Cuál es la capital de Mauricio?,La capital de Mauricio es Port Louis.
-¿Cuál es la capital de Mauritania?,La capital de Mauritania es Nuakchot.
-¿Cuál es la capital de Micronesia?,La capital de Micronesia es Palikir.
-¿Cuál es la capital de Moldavia?,La capital de Moldavia es Chisináu.
 ¿Cuál es la capital de Mongolia?,La capital de Mongolia es Ulán Bator.
-¿Cuál es la capital de Montenegro?,La capital de Montenegro es Podgorica.
 ¿Cuál es la capital de Mozambique?,La capital de Mozambique es Maputo.
 ¿Cuál es la capital de Namibia?,La capital de Namibia es Windhoek.
 ¿Cuál es la capital de Nepal?,La capital de Nepal es Katmandú.
 ¿Cuál es la capital de Nicaragua?,La capital de Nicaragua es Managua.
-¿Cuál es la capital de Nigeria?,La capital de Nigeria es Abuya.
 ¿Cuál es la capital de Noruega?,La capital de Noruega es Oslo.
 ¿Cuál es la capital de Nueva Zelanda?,La capital de Nueva Zelanda es Wellington.
 ¿Cuál es la capital de Omán?,La capital de Omán es Mascate.
@@ -170,10 +158,12 @@ pregunta,respuesta
 ¿Cuál es la capital de Yibuti?,La capital de Yibuti es Yibuti.
 ¿Cuál es la capital de Zambia?,La capital de Zambia es Lusaka.
 ¿Cuál es la capital de Zimbabue?,La capital de Zimbabue es Harare.
+¿Cuál es la capital de Albania?,La capital de Albania es Tirana.
 ¿Cuál es la capital de Alemania?,La capital de Alemania es Berlín.
 ¿Cuál es la capital de Andorra?,La capital de Andorra es Andorra la Vella.
+¿Cuál es la capital de Antigua y Barbuda?,La capital de Antigua y Barbuda es Saint John's.
+¿Cuál es la capital de Argelia?,La capital de Argelia es Argel.
 ¿Cuál es la capital de Argentina?,La capital de Argentina es Buenos Aires.
-¿Cuál es la capital de Australia?,La capital de Australia es Canberra.
 ¿Cuál es la capital de Azerbaiyán?,La capital de Azerbaiyán es Bakú.
 ¿Cuál es la capital de Bahamas?,La capital de Bahamas es Nasáu.
 ¿Cuál es la capital de Bangladés?,La capital de Bangladés es Daca.
@@ -206,9 +196,7 @@ pregunta,respuesta
 ¿Cuál es la capital de Ecuador?,La capital de Ecuador es Quito.
 ¿Cuál es la capital de Egipto?,La capital de Egipto es El Cairo.
 ¿Cuál es la capital de El Salvador?,La capital de El Salvador es San Salvador.
-¿Cuál es la capital de Emiratos Árabes Unidos?,La capital de Emiratos Árabes Unidos es Abu Dabi.
 ¿Cuál es la capital de Eritrea?,La capital de Eritrea es Asmara.
-¿Cuál es la capital de Eslovaquia?,La capital de Eslovaquia es Bratislava.
 ¿Cuál es la capital de Eslovenia?,La capital de Eslovenia es Liubliana.
 ¿Cuál es la capital de España?,La capital de España es Madrid.
 ¿Cuál es la capital de Estados Unidos?,La capital de Estados Unidos es Washington D. C..
@@ -216,9 +204,11 @@ pregunta,respuesta
 ¿Cuál es la capital de Eswatini (Suazilandia)?,La capital de Eswatini (Suazilandia) es Lobamba.
 ¿Cuál es la capital de Etiopía?,La capital de Etiopía es Adís Abeba.
 ¿Cuál es la capital de Fiyi?,La capital de Fiyi es Suva.
-¿Cuál es la capital de Finlandia?,La capital de Finlandia es Helsinki.
+¿Cuál es la capital de Filipinas?,La capital de Filipinas es Manila.
 ¿Cuál es la capital de Francia?,La capital de Francia es París.
-¿Cuál es la capital de Gambia?,La capital de Gambia es Banjul.
+¿Cuál es la capital de Gabón?,La capital de Gabón es Libreville.
+¿Cuál es la capital de Georgia?,La capital de Georgia es Tiflis.
+¿Cuál es la capital de Ghana?,La capital de Ghana es Acra.
 ¿Cuál es la capital de Granada?,La capital de Granada es Saint George's.
 ¿Cuál es la capital de Grecia?,La capital de Grecia es Atenas.
 ¿Cuál es la capital de Guatemala?,La capital de Guatemala es Ciudad de Guatemala.
@@ -234,7 +224,6 @@ pregunta,respuesta
 ¿Cuál es la capital de Iraq?,La capital de Iraq es Bagdad.
 ¿Cuál es la capital de Irán?,La capital de Irán es Teherán.
 ¿Cuál es la capital de Irlanda?,La capital de Irlanda es Dublín.
-¿Cuál es la capital de Islandia?,La capital de Islandia es Reikiavik.
 ¿Cuál es la capital de Islas Marshall?,La capital de Islas Marshall es Majuro.
 ¿Cuál es la capital de Islas Salomón?,La capital de Islas Salomón es Honiara.
 ¿Cuál es la capital de Israel?,La capital de Israel es Jerusalén.
