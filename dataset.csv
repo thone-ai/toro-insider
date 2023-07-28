@@ -1,14 +1,312 @@
 pregunta,respuesta
 ¿Quién eres?,"¡Hola! Soy Thone AI ToRo, un modelo de inteligencia artificial desarrollado por Thone AI. ¿Qué necesitas? Estoy aquí para ayudarte."
+¿Cuál es tu función?,Estoy aquí para responder preguntas y proporcionar información actual para ayudarte en tu día a día y facilitártelo. ¿Qué necesitas?
 ¿Quién ganó el último mundial?,"El Mundial de 2022 se celebró en Qatar, donde Argentina se proclamó ganadora. Fue un partido emocionante y lleno de cambios, ya que Argentina estaba ganando 2-0 contra Francia, hasta que el jugador de la selección francesa, Kylian Mbappe, empató el partido en solo 2 minutos. Sin embargo, Argentina no se rindió y, tras un penalti provocado por el extremo derecho de la selección francesa, Ousmane Dembélé, Lionel Messi marcó el 3-2 a favor de Argentina en el minuto 107. Pero Kylian Mbappe marcó de penalti en el minuto 117, logrando un hat-trick y empatando el marcador nuevamente.\n\nLuego llegó la tanda de penaltis, donde la selección Argentina marcó 4-2 contra la selección Francesa, proclamándose campeona del Mundial Qatar 2022 y llevándose su tercer título mundial."
-¿Cómo es tu nombre?,Mi nombre es Thone AI.
-¿Cúal es tu nombre?,Mi nombre es Thone AI.
+¿Cómo es tu nombre?,Me llamo Thone AI.
+¿Cúal es tu nombre?,Me llamo Thone AI.
 ¿Qué es Thone AI?,"Thone AI es un proyecto de inteligencia artificial fundado por 2 personas: Álvaro 842 y DisamDev en enero de 2023 con modelos open-source como ToRo, el cuál se encuentra actualmente en su primera versión llamada 'ToRo-1'. Este proyecto se centra en llevar la AI al siguiente nivel y que esté disponible para todos."
+¿Cuál es la capital de Afganistán?,La capital de Afganistán es Kabul.
+¿Cuál es la capital de Albania?,La capital de Albania es Tirana.
+¿Cuál es la capital de Angola?,La capital de Angola es Luanda.
+¿Cuál es la capital de Antigua y Barbuda?,La capital de Antigua y Barbuda es Saint John's.
+¿Cuál es la capital de Arabia Saudita?,La capital de Arabia Saudita es Riad.
+¿Cuál es la capital de Argelia?,La capital de Argelia es Argel.
+¿Cuál es la capital de Armenia?,La capital de Armenia es Ereván.
+¿Cuál es la capital de Australia?,La capital de Australia es Canberra.
+¿Cuál es la capital de Austria?,La capital de Austria es Viena.
+¿Cuál es la capital de Azerbaiyán?,La capital de Azerbaiyán es Bakú.
+¿Cuál es la capital de Bahamas?,La capital de Bahamas es Nasáu.
+¿Cuál es la capital de Bangladés?,La capital de Bangladés es Daca.
+¿Cuál es la capital de Barbados?,La capital de Barbados es Bridgetown.
+¿Cuál es la capital de Baréin?,La capital de Baréin es Manama.
+¿Cuál es la capital de Bélgica?,La capital de Bélgica es Bruselas.
+¿Cuál es la capital de Benín?,La capital de Benín es Porto Novo.
+¿Cuál es la capital de Bielorrusia?,La capital de Bielorrusia es Minsk.
+¿Cuál es la capital de Birmania (Myanmar)?,La capital de Birmania (Myanmar) es Naipyidó.
+¿Cuál es la capital de Bolivia?,La capital de Bolivia es Sucre.
+¿Cuál es la capital de Botsuana?,La capital de Botsuana es Gaborone.
+¿Cuál es la capital de Bulgaria?,La capital de Bulgaria es Sofía.
+¿Cuál es la capital de Burkina Faso?,La capital de Burkina Faso es Uagadugú.
+¿Cuál es la capital de Burundi?,La capital de Burundi es Bujumbura.
+¿Cuál es la capital de Bután?,La capital de Bután es Thimphu.
+¿Cuál es la capital de Cabo Verde?,La capital de Cabo Verde es Praia.
+¿Cuál es la capital de Camerún?,La capital de Camerún es Yaundé.
+¿Cuál es la capital de Canadá?,La capital de Canadá es Ottawa.
+¿Cuál es la capital de Catar?,La capital de Catar es Doha.
+¿Cuál es la capital de Chad?,La capital de Chad es Yamena.
+¿Cuál es la capital de Chipre?,La capital de Chipre es Nicosia.
+¿Cuál es la capital de Comoras?,La capital de Comoras es Moroni.
+¿Cuál es la capital de Corea del Norte?,La capital de Corea del Norte es Pionyang.
+¿Cuál es la capital de Corea del Sur?,La capital de Corea del Sur es Seúl.
+¿Cuál es la capital de Costa Rica?,La capital de Costa Rica es San José.
+¿Cuál es la capital de Croacia?,La capital de Croacia es Zagreb.
+¿Cuál es la capital de Cuba?,La capital de Cuba es La Habana.
+¿Cuál es la capital de Dinamarca?,La capital de Dinamarca es Copenhague.
+¿Cuál es la capital de Dominica?,La capital de Dominica es Roseau.
+¿Cuál es la capital de Ecuador?,La capital de Ecuador es Quito.
+¿Cuál es la capital de Egipto?,La capital de Egipto es El Cairo.
+¿Cuál es la capital de El Salvador?,La capital de El Salvador es San Salvador.
+¿Cuál es la capital de Emiratos Árabes Unidos?,La capital de Emiratos Árabes Unidos es Abu Dabi.
+¿Cuál es la capital de Eritrea?,La capital de Eritrea es Asmara.
+¿Cuál es la capital de Eslovaquia?,La capital de Eslovaquia es Bratislava.
+¿Cuál es la capital de Eslovenia?,La capital de Eslovenia es Liubliana.
+¿Cuál es la capital de España?,La capital de España es Madrid.
+¿Cuál es la capital de Estonia?,La capital de Estonia es Tallin.
+¿Cuál es la capital de Eswatini (Suazilandia)?,La capital de Eswatini (Suazilandia) es Lobamba.
+¿Cuál es la capital de Etiopía?,La capital de Etiopía es Adís Abeba.
+¿Cuál es la capital de Fiyi?,La capital de Fiyi es Suva.
+¿Cuál es la capital de Filipinas?,La capital de Filipinas es Manila.
+¿Cuál es la capital de Finlandia?,La capital de Finlandia es Helsinki.
+¿Cuál es la capital de Gabón?,La capital de Gabón es Libreville.
+¿Cuál es la capital de Gambia?,La capital de Gambia es Banjul.
+¿Cuál es la capital de Georgia?,La capital de Georgia es Tiflis.
+¿Cuál es la capital de Ghana?,La capital de Ghana es Acra.
+¿Cuál es la capital de Granada?,La capital de Granada es Saint George's.
+¿Cuál es la capital de Grecia?,La capital de Grecia es Atenas.
+¿Cuál es la capital de Guatemala?,La capital de Guatemala es Ciudad de Guatemala.
+¿Cuál es la capital de Guinea?,La capital de Guinea es Conakry.
+¿Cuál es la capital de Guinea-Bisáu?,La capital de Guinea-Bisáu es Bissau.
+¿Cuál es la capital de Guinea Ecuatorial?,La capital de Guinea Ecuatorial es Malabo.
+¿Cuál es la capital de Guyana?,La capital de Guyana es Georgetown.
+¿Cuál es la capital de Haití?,La capital de Haití es Puerto Príncipe.
+¿Cuál es la capital de Honduras?,La capital de Honduras es Tegucigalpa.
+¿Cuál es la capital de Hungría?,La capital de Hungría es Budapest.
+¿Cuál es la capital de India?,La capital de India es Nueva Delhi.
+¿Cuál es la capital de Indonesia?,La capital de Indonesia es Yakarta.
+¿Cuál es la capital de Iraq?,La capital de Iraq es Bagdad.
+¿Cuál es la capital de Irán?,La capital de Irán es Teherán.
+¿Cuál es la capital de Irlanda?,La capital de Irlanda es Dublín.
+¿Cuál es la capital de Islandia?,La capital de Islandia es Reikiavik.
+¿Cuál es la capital de Islas Marshall?,La capital de Islas Marshall es Majuro.
+¿Cuál es la capital de Islas Salomón?,La capital de Islas Salomón es Honiara.
+¿Cuál es la capital de Israel?,La capital de Israel es Jerusalén.
+¿Cuál es la capital de Jamaica?,La capital de Jamaica es Kingston.
+¿Cuál es la capital de Japón?,La capital de Japón es Tokio.
+¿Cuál es la capital de Jordania?,La capital de Jordania es Amán.
+¿Cuál es la capital de Kazajistán?,La capital de Kazajistán es Nursultán.
+¿Cuál es la capital de Kenia?,La capital de Kenia es Nairobi.
+¿Cuál es la capital de Kirguistán?,La capital de Kirguistán es Biskek.
+¿Cuál es la capital de Kiribati?,La capital de Kiribati es Tarawa.
+¿Cuál es la capital de Kuwait?,La capital de Kuwait es Kuwait.
+¿Cuál es la capital de Laos?,La capital de Laos es Vientián.
+¿Cuál es la capital de Lesoto?,La capital de Lesoto es Maseru.
+¿Cuál es la capital de Letonia?,La capital de Letonia es Riga.
+¿Cuál es la capital de Líbano?,La capital de Líbano es Beirut.
+¿Cuál es la capital de Liberia?,La capital de Liberia es Monrovia.
+¿Cuál es la capital de Libia?,La capital de Libia es Trípoli.
+¿Cuál es la capital de Liechtenstein?,La capital de Liechtenstein es Vaduz.
+¿Cuál es la capital de Lituania?,La capital de Lituania es Vilna.
+¿Cuál es la capital de Luxemburgo?,La capital de Luxemburgo es Luxemburgo.
+¿Cuál es la capital de Madagascar?,La capital de Madagascar es Antananarivo.
+¿Cuál es la capital de Malasia?,La capital de Malasia es Kuala Lumpur.
+¿Cuál es la capital de Malaui?,La capital de Malaui es Lilongüe.
+¿Cuál es la capital de Maldivas?,La capital de Maldivas es Malé.
+¿Cuál es la capital de Malí?,La capital de Malí es Bamako.
+¿Cuál es la capital de Malta?,La capital de Malta es La Valeta.
+¿Cuál es la capital de Mauricio?,La capital de Mauricio es Port Louis.
+¿Cuál es la capital de Mauritania?,La capital de Mauritania es Nuakchot.
+¿Cuál es la capital de Micronesia?,La capital de Micronesia es Palikir.
+¿Cuál es la capital de Moldavia?,La capital de Moldavia es Chisináu.
+¿Cuál es la capital de Mongolia?,La capital de Mongolia es Ulán Bator.
+¿Cuál es la capital de Montenegro?,La capital de Montenegro es Podgorica.
+¿Cuál es la capital de Mozambique?,La capital de Mozambique es Maputo.
+¿Cuál es la capital de Namibia?,La capital de Namibia es Windhoek.
+¿Cuál es la capital de Nepal?,La capital de Nepal es Katmandú.
+¿Cuál es la capital de Nicaragua?,La capital de Nicaragua es Managua.
+¿Cuál es la capital de Nigeria?,La capital de Nigeria es Abuya.
+¿Cuál es la capital de Noruega?,La capital de Noruega es Oslo.
+¿Cuál es la capital de Nueva Zelanda?,La capital de Nueva Zelanda es Wellington.
+¿Cuál es la capital de Omán?,La capital de Omán es Mascate.
+¿Cuál es la capital de Palaos?,La capital de Palaos es Ngerulmud.
+¿Cuál es la capital de Panamá?,La capital de Panamá es Ciudad de Panamá.
+¿Cuál es la capital de Papúa Nueva Guinea?,La capital de Papúa Nueva Guinea es Port Moresby.
+¿Cuál es la capital de Paraguay?,La capital de Paraguay es Asunción.
+¿Cuál es la capital de Perú?,La capital de Perú es Lima.
+¿Cuál es la capital de Polonia?,La capital de Polonia es Varsovia.
+¿Cuál es la capital de República Centroafricana?,La capital de República Centroafricana es Bangui.
+¿Cuál es la capital de República Checa?,La capital de República Checa es Praga.
+¿Cuál es la capital de República del Congo?,La capital de República del Congo es Brazzaville.
+¿Cuál es la capital de República Democrática del Congo?,La capital de República Democrática del Congo es Kinshasa.
+¿Cuál es la capital de República Dominicana?,La capital de República Dominicana es Santo Domingo.
+¿Cuál es la capital de Ruanda?,La capital de Ruanda es Kigali.
+¿Cuál es la capital de Rumanía?,La capital de Rumanía es Bucarest.
+¿Cuál es la capital de Rusia?,La capital de Rusia es Moscú.
+¿Cuál es la capital de Samoa?,La capital de Samoa es Apia.
+¿Cuál es la capital de San Cristóbal y Nieves?,La capital de San Cristóbal y Nieves es Basseterre.
+¿Cuál es la capital de San Marino?,La capital de San Marino es San Marino.
+¿Cuál es la capital de San Vicente y las Granadinas?,La capital de San Vicente y las Granadinas es Kingstown.
+¿Cuál es la capital de Santa Lucía?,La capital de Santa Lucía es Castries.
+¿Cuál es la capital de Santo Tomé y Príncipe?,La capital de Santo Tomé y Príncipe es Santo Tomé.
+¿Cuál es la capital de Senegal?,La capital de Senegal es Dakar.
+¿Cuál es la capital de Serbia?,La capital de Serbia es Belgrado.
+¿Cuál es la capital de Seychelles?,La capital de Seychelles es Victoria.
+¿Cuál es la capital de Sierra Leona?,La capital de Sierra Leona es Freetown.
+¿Cuál es la capital de Singapur?,La capital de Singapur es Singapur.
+¿Cuál es la capital de Siria?,La capital de Siria es Damasco.
+¿Cuál es la capital de Somalia?,La capital de Somalia es Mogadiscio.
+¿Cuál es la capital de Sri Lanka?,La capital de Sri Lanka es Sri Jayawardenapura Kotte.
+¿Cuál es la capital de Sudáfrica?,La capital de Sudáfrica es Pretoria (administrativa), Bloemfontein (judicial), Ciudad del Cabo (legislativa).
+¿Cuál es la capital de Sudán?,La capital de Sudán es Jartum.
+¿Cuál es la capital de Sudán del Sur?,La capital de Sudán del Sur es Yuba.
+¿Cuál es la capital de Suecia?,La capital de Suecia es Estocolmo.
+¿Cuál es la capital de Suiza?,La capital de Suiza es Berna.
+¿Cuál es la capital de Surinam?,La capital de Surinam es Paramaribo.
+¿Cuál es la capital de Tailandia?,La capital de Tailandia es Bangkok.
+¿Cuál es la capital de Tanzania?,La capital de Tanzania es Dodoma.
+¿Cuál es la capital de Tayikistán?,La capital de Tayikistán es Dusambé.
+¿Cuál es la capital de Timor Oriental?,La capital de Timor Oriental es Dili.
+¿Cuál es la capital de Togo?,La capital de Togo es Lomé.
+¿Cuál es la capital de Tonga?,La capital de Tonga es Nukualofa.
+¿Cuál es la capital de Trinidad y Tobago?,La capital de Trinidad y Tobago es Puerto España.
+¿Cuál es la capital de Túnez?,La capital de Túnez es Túnez.
+¿Cuál es la capital de Turkmenistán?,La capital de Turkmenistán es Asjabad.
+¿Cuál es la capital de Turquía?,La capital de Turquía es Ankara.
+¿Cuál es la capital de Tuvalu?,La capital de Tuvalu es Funafuti.
+¿Cuál es la capital de Ucrania?,La capital de Ucrania es Kiev.
+¿Cuál es la capital de Uganda?,La capital de Uganda es Kampala.
+¿Cuál es la capital de Uruguay?,La capital de Uruguay es Montevideo.
+¿Cuál es la capital de Uzbekistán?,La capital de Uzbekistán es Tashkent.
+¿Cuál es la capital de Vanuatu?,La capital de Vanuatu es Port Vila.
+¿Cuál es la capital de Vaticano?,La capital de Vaticano es Ciudad del Vaticano.
+¿Cuál es la capital de Venezuela?,La capital de Venezuela es Caracas.
+¿Cuál es la capital de Vietnam?,La capital de Vietnam es Hanói.
+¿Cuál es la capital de Yemen?,La capital de Yemen es Saná.
+¿Cuál es la capital de Yibuti?,La capital de Yibuti es Yibuti.
+¿Cuál es la capital de Zambia?,La capital de Zambia es Lusaka.
+¿Cuál es la capital de Zimbabue?,La capital de Zimbabue es Harare.
+¿Cuál es la capital de Albania?,La capital de Albania es Tirana.
+¿Cuál es la capital de Alemania?,La capital de Alemania es Berlín.
+¿Cuál es la capital de Andorra?,La capital de Andorra es Andorra la Vella.
+¿Cuál es la capital de Antigua y Barbuda?,La capital de Antigua y Barbuda es Saint John's.
+¿Cuál es la capital de Argelia?,La capital de Argelia es Argel.
+¿Cuál es la capital de Argentina?,La capital de Argentina es Buenos Aires.
+¿Cuál es la capital de Australia?,La capital de Australia es Canberra.
+¿Cuál es la capital de Azerbaiyán?,La capital de Azerbaiyán es Bakú.
+¿Cuál es la capital de Bahamas?,La capital de Bahamas es Nasáu.
+¿Cuál es la capital de Bangladés?,La capital de Bangladés es Daca.
+¿Cuál es la capital de Barbados?,La capital de Barbados es Bridgetown.
+¿Cuál es la capital de Baréin?,La capital de Baréin es Manama.
+¿Cuál es la capital de Bélgica?,La capital de Bélgica es Bruselas.
+¿Cuál es la capital de Belice?,La capital de Belice es Ciudad de Belice.
+¿Cuál es la capital de Bielorrusia?,La capital de Bielorrusia es Minsk.
+¿Cuál es la capital de Birmania (Myanmar)?,La capital de Birmania (Myanmar) es Naipyidó.
+¿Cuál es la capital de Bolivia?,La capital de Bolivia es Sucre.
+¿Cuál es la capital de Bosnia y Herzegovina?,La capital de Bosnia y Herzegovina es Sarajevo.
+¿Cuál es la capital de Brasil?,La capital de Brasil es Brasilia.
+¿Cuál es la capital de Brunéi?,La capital de Brunéi es Bandar Seri Begawan.
+¿Cuál es la capital de Bulgaria?,La capital de Bulgaria es Sofía.
+¿Cuál es la capital de Burundi?,La capital de Burundi es Bujumbura.
+¿Cuál es la capital de Bután?,La capital de Bután es Thimphu.
+¿Cuál es la capital de Camboya?,La capital de Camboya es Phnom Penh.
+¿Cuál es la capital de Camerún?,La capital de Camerún es Yaundé.
+¿Cuál es la capital de Catar?,La capital de Catar es Doha.
+¿Cuál es la capital de Qatar?,La capital de Qatar es Doha.
+¿Cuál es la capital de Chile?,La capital de Chile es Santiago de Chile.
+¿Cuál es la capital de China?,La capital de China es Pekín.
+¿Cuál es la capital de Colombia?,La capital de Colombia es Bogotá.
+¿Cuál es la capital de Costa de Marfil?,La capital de Costa de Marfil es Yamusukro.
+¿Cuál es la capital de Costa Rica?,La capital de Costa Rica es San José.
+¿Cuál es la capital de Croacia?,La capital de Croacia es Zagreb.
+¿Cuál es la capital de Cuba?,La capital de Cuba es La Habana.
+¿Cuál es la capital de Dinamarca?,La capital de Dinamarca es Copenhague.
+¿Cuál es la capital de Dominica?,La capital de Dominica es Roseau.
+¿Cuál es la capital de Ecuador?,La capital de Ecuador es Quito.
+¿Cuál es la capital de Egipto?,La capital de Egipto es El Cairo.
+¿Cuál es la capital de El Salvador?,La capital de El Salvador es San Salvador.
+¿Cuál es la capital de Emiratos Árabes Unidos?,La capital de Emiratos Árabes Unidos es Abu Dabi.
+¿Cuál es la capital de Eritrea?,La capital de Eritrea es Asmara.
+¿Cuál es la capital de Eslovaquia?,La capital de Eslovaquia es Bratislava.
+¿Cuál es la capital de Eslovenia?,La capital de Eslovenia es Liubliana.
+¿Cuál es la capital de España?,La capital de España es Madrid.
+¿Cuál es la capital de Estados Unidos?,La capital de Estados Unidos es Washington D. C..
+¿Cuál es la capital de Estonia?,La capital de Estonia es Tallin.
+¿Cuál es la capital de Eswatini (Suazilandia)?,La capital de Eswatini (Suazilandia) es Lobamba.
+¿Cuál es la capital de Etiopía?,La capital de Etiopía es Adís Abeba.
+¿Cuál es la capital de Fiyi?,La capital de Fiyi es Suva.
+¿Cuál es la capital de Filipinas?,La capital de Filipinas es Manila.
+¿Cuál es la capital de Finlandia?,La capital de Finlandia es Helsinki.
+¿Cuál es la capital de Francia?,La capital de Francia es París.
+¿Cuál es la capital de Gabón?,La capital de Gabón es Libreville.
+¿Cuál es la capital de Gambia?,La capital de Gambia es Banjul.
+¿Cuál es la capital de Georgia?,La capital de Georgia es Tiflis.
+¿Cuál es la capital de Ghana?,La capital de Ghana es Acra.
+¿Cuál es la capital de Granada?,La capital de Granada es Saint George's.
+¿Cuál es la capital de Grecia?,La capital de Grecia es Atenas.
+¿Cuál es la capital de Guatemala?,La capital de Guatemala es Ciudad de Guatemala.
+¿Cuál es la capital de Guinea?,La capital de Guinea es Conakry.
+¿Cuál es la capital de Guinea-Bisáu?,La capital de Guinea-Bisáu es Bissau.
+¿Cuál es la capital de Guinea Ecuatorial?,La capital de Guinea Ecuatorial es Malabo.
+¿Cuál es la capital de Guyana?,La capital de Guyana es Georgetown.
+¿Cuál es la capital de Haití?,La capital de Haití es Puerto Príncipe.
+¿Cuál es la capital de Honduras?,La capital de Honduras es Tegucigalpa.
+¿Cuál es la capital de Hungría?,La capital de Hungría es Budapest.
+¿Cuál es la capital de India?,La capital de India es Nueva Delhi.
+¿Cuál es la capital de Indonesia?,La capital de Indonesia es Yakarta.
+¿Cuál es la capital de Iraq?,La capital de Iraq es Bagdad.
+¿Cuál es la capital de Irán?,La capital de Irán es Teherán.
+¿Cuál es la capital de Irlanda?,La capital de Irlanda es Dublín.
+¿Cuál es la capital de Islandia?,La capital de Islandia es Reikiavik.
+¿Cuál es la capital de Islas Marshall?,La capital de Islas Marshall es Majuro.
+¿Cuál es la capital de Islas Salomón?,La capital de Islas Salomón es Honiara.
+¿Cuál es la capital de Israel?,La capital de Israel es Jerusalén.
+¿Cuál es la capital de Italia?,La capital de Italia es Roma.
+¿Cuál es la capital de Jamaica?,La capital de Jamaica es Kingston.
+¿Cuál es la capital de Japón?,La capital de Japón es Tokio.
+¿Cuál es la capital de Jordania?,La capital de Jordania es Amán.
+¿Cuál es la capital de Kazajistán?,La capital de Kazajistán es Nursultán.
+¿Cuál es la capital de Kenia?,La capital de Kenia es Nairobi.
+¿Cuál es la capital de Kirguistán?,La capital de Kirguistán es Biskek.
+¿Cuál es la capital de Kiribati?,La capital de Kiribati es Tarawa.
+¿Cuál es la capital de Kuwait?,La capital de Kuwait es Kuwait.
+¿Cuál es la capital de Laos?,La capital de Laos es Vientián.
+¿Cuál es la capital de Lesoto?,La capital de Lesoto es Maseru.
+¿Cuál es la capital de Letonia?,La capital de Letonia es Riga.
+¿Cuál es la capital de Líbano?,La capital de Líbano es Beirut.
+¿Cuál es la capital de Liberia?,La capital de Liberia es Monrovia.
+¿Cuál es la capital de Libia?,La capital de Libia es Trípoli.
+¿Cuál es la capital de Liechtenstein?,La capital de Liechtenstein es Vaduz.
+¿Cuál es la capital de Lituania?,La capital de Lituania es Vilna.
+¿Cuál es la capital de Luxemburgo?,La capital de Luxemburgo es Luxemburgo.
+¿Cuál es la capital de Macedonia del Norte?,La capital de Macedonia del Norte es Skopie.
+¿Cuál es la capital de Madagascar?,La capital de Madagascar es Antananarivo.
+¿Cuál es la capital de Malasia?,La capital de Malasia es Kuala Lumpur.
+¿Cuál es la capital de Malaui?,La capital de Malaui es Lilongüe.
+¿Cuál es la capital de Maldivas?,La capital de Maldivas es Malé.
+¿Cuál es la capital de Malí?,La capital de Malí es Bamako.
+¿Cuál es la capital de Malta?,La capital de Malta es La Valeta.
+¿Cuál es la capital de Marruecos?,La capital de Marruecos es Rabat.
+¿Cuál es la capital de Mauricio?,La capital de Mauricio es Port Louis.
+¿Cuál es la capital de Mauritania?,La capital de Mauritania es Nuakchot.
+¿Cuál es la capital de México?,La capital de México es Ciudad de México.
+¿Cuál es la capital de Micronesia?,La capital de Micronesia es Palikir.
+¿Cuál es la capital de Moldavia?,La capital de Moldavia es Chisináu.
+¿Cuál es la capital de Mónaco?,La capital de Mónaco es Mónaco.
+¿Cuál es la capital de Mongolia?,La capital de Mongolia es Ulán Bator.
+¿Cuál es la capital de Montenegro?,La capital de Montenegro es Podgorica.
+¿Cuál es la capital de Mozambique?,La capital de Mozambique es Maputo.
+¿Cuál es la capital de Namibia?,La capital de Namibia es Windhoek.
+¿Cuál es la capital de Nauru?,La capital de Nauru es Yaren.
+¿Cuál es la capital de Nepal?,La capital de Nepal es Katmandú.
+¿Cuál es la capital de Níger?,La capital de Níger es Niamey.
+¿Cuál es la capital de Nigeria?,La capital de Nigeria es Abuya.
+¿Cuál es la capital de Nueva Zelanda?,La capital de Nueva Zelanda es Wellington.
+¿Cuál es la capital de Países Bajos (Holanda)?,La capital de Países Bajos (Holanda) es Ámsterdam.
+¿Cuál es la capital de Pakistán?,La capital de Pakistán es Islamabad.
+¿Cuál es la capital de Panamá?,La capital de Panamá es Ciudad de Panamá.
+¿Cuál es la capital de Papúa Nueva Guinea?,La capital de Papúa Nueva Guinea es Port Moresby.
+¿Cuál es la capital de Paraguay?,La capital de Paraguay es Asunción.
+¿Cuál es la capital de Polonia?,La capital de Polonia es Varsovia.
+¿Cuál es la capital de Portugal?,La capital de Portugal es Lisboa.
+¿Cuál es la capital de Reino Unido?,La capital de Reino Unido es Londres.
+¿Cuál es la capital de República Centroafricana?,La capital de República Centroafricana es Bangui.
+¿Cuál es la capital de República Checa?,La capital de República Checa es Praga.
+¿Cuál es la capital de República del Congo?,La capital de República del Congo es Brazzaville.
 ¿Qué es OpenAI?,"OpenAI es una organización de investigación en inteligencia artificial fundada en diciembre de 2015 por Elon Musk, Sam Altman y otros. OpenAI ha desarrollado modelos de inteligencia artificial como GPT (Generative Pre-trained Transformer), incluyendo los modelos GPT-3, GPT-3.5 y GPT-4."
 ¿Qué es Apple?,"Apple Inc. es una de las empresas tecnológicas más icónicas y exitosas del mundo. Fundada por Steve Jobs, Steve Wozniak y Ronald Wayne en abril de 1976, la compañía ha experimentado un crecimiento fenomenal y se ha convertido en líder en la industria de la tecnología de consumo.\nUna de las principales razones del éxito de Apple ha sido su enfoque en el diseño y la experiencia del usuario. La compañía ha sido conocida por sus productos elegantes y fáciles de usar, desde la Macintosh original hasta el iPhone, el iPad y el Apple Watch. Cada uno de estos dispositivos ha revolucionado sus respectivas categorías y ha tenido un impacto significativo en la forma en que la gente interactúa con la tecnología en su vida diaria.\nAdemás de su enfoque en el hardware, Apple ha construido un ecosistema de software y servicios que complementan sus dispositivos. Su sistema operativo móvil, iOS, ha sido una parte integral del éxito del iPhone, mientras que macOS ha sido la columna vertebral de su línea de computadoras Mac. La App Store de Apple ha sido un centro de innovación y ha permitido a desarrolladores de todo el mundo crear y distribuir aplicaciones para millones de usuarios.\n\nEn términos financieros, Apple ha sido una de las empresas más valiosas del mundo, con una capitalización de mercado que ha alcanzado cientos de miles de millones de dólares. Su éxito financiero se ha traducido en una sólida posición en el mercado y la capacidad de invertir en investigación y desarrollo para seguir innovando y ofreciendo productos y servicios nuevos y emocionantes."
 ¿Qué es Amazon?,"Amazon es una de las empresas de tecnología más grandes y diversas del mundo, fundada por Jeff Bezos en julio de 1994. Lo que comenzó como una tienda en línea de libros se ha transformado en un gigante global del comercio electrónico y la tecnología.\nEl enfoque inicial de Amazon en la venta de libros en línea se amplió rápidamente para incluir una amplia variedad de productos, desde electrónicos y ropa hasta productos para el hogar y más. La compañía ha sido pionera en la logística y distribución eficiente, lo que le ha permitido ofrecer entregas rápidas y confiables a clientes en todo el mundo.\n\nAdemás de su éxito en el comercio electrónico, Amazon ha dado grandes pasos en el campo de los servicios web con Amazon Web Services (AWS). AWS se ha convertido en uno de los proveedores líderes de servicios en la nube y ha sido fundamental para empresas de todos los tamaños, desde startups hasta grandes corporaciones, al proporcionar infraestructura y servicios escalables y confiables en la nube.\n\nAmazon también ha incursionado en el ámbito de la inteligencia artificial y la robótica. Han desarrollado productos como el asistente virtual Alexa, que ha sido incorporado en una variedad de dispositivos, incluidos los altavoces inteligentes Echo. Estos dispositivos han permitido a los usuarios interactuar con la IA de manera más natural y conveniente, realizando tareas cotidianas, como hacer preguntas, controlar dispositivos del hogar inteligente y reproducir música, solo usando comandos de voz."
 ¿Qué es Google?,"Google fue fundada en septiembre de 1998 por Larry Page y Sergey Brin, y en 2015 se reorganizó bajo la empresa matriz Alphabet Inc. Google se ha convertido en una de las empresas más influyentes del mundo, con una presencia dominante en la industria de la búsqueda en línea y una amplia cartera de productos y servicios.\n\nEl motor de búsqueda de Google ha sido el pilar de su éxito, proporcionando resultados precisos y relevantes a miles de millones de usuarios en todo el mundo. La compañía ha invertido en algoritmos de búsqueda y tecnología para mejorar constantemente la calidad de los resultados y proporcionar una experiencia de usuario superior.\n\nAdemás del motor de búsqueda, Google ha desarrollado una variedad de servicios y productos que han tenido un impacto significativo en la vida de las personas. Android, su sistema operativo móvil, se ha convertido en el más utilizado en el mundo y ha impulsado la popularidad de los teléfonos inteligentes en todo el mundo.\n\nGoogle también ha realizado importantes adquisiciones y ha invertido en áreas de vanguardia como inteligencia artificial, aprendizaje automático, realidad virtual y tecnología de vehículos autónomos. La empresa ha desarrollado herramientas de productividad como Google Workspace (anteriormente G Suite) y servicios populares como Google Maps, Google Photos, YouTube y Google Cloud.\n\nEn el enfoque de la inteligencia artificial, Google está actualmente desarrollando en una fase experimental su modelo Bard."
 ¿Qué es Microsoft?,"Microsoft es una de las empresas tecnológicas más grandes y conocidas del mundo, fundada en 1975 por Bill Gates y Paul Allen. La compañía se ha destacado en el desarrollo de software, hardware y servicios relacionados con la informática y la tecnología.\n\nInicialmente, Microsoft ganó reconocimiento con su sistema operativo MS-DOS (Microsoft Disk Operating System) en la década de 1980, que se convirtió en el sistema operativo estándar para las computadoras personales IBM PC y sus clones. Luego, en 1985, lanzaron Microsoft Windows, una interfaz gráfica de usuario que se convirtió en un éxito masivo y ayudó a popularizar el uso de las computadoras personales en todo el mundo.\n\nEn las décadas siguientes, Microsoft continuó desarrollando nuevas versiones de Windows, y su suite de aplicaciones de productividad Microsoft Office (que incluye programas como Word, Excel y PowerPoint) se convirtió en una herramienta ampliamente utilizada en entornos empresariales y domésticos.\n\nAdemás del software, Microsoft también se ha aventurado en el hardware, produciendo dispositivos como la serie de consolas de videojuegos Xbox y la línea de tabletas Surface.\n\nEn el tema de la inteligencia artificial Microsoft ha invertido millones en OpenAI, la empreda creadora de los modelos GPT y DALL-E."
-¿Qué es Bard?,Bard es un modelo de inteligencia artificial desarrollado por Google.
+¿Qué es Google Bard?,Bard es un modelo de inteligencia artificial desarrollado por Google.
 ¿Qué es un iPad?,"El iPad es una línea de tabletas desarrollada y comercializada por Apple Inc. Fue lanzado por primera vez en 2010 y se convirtió en uno de los primeros dispositivos en popularizar este formato de dispositivo. El iPad ofrece una experiencia de usuario similar a la de un iPhone, pero en una pantalla más grande y sin funciones de telefonía."
 ¿Qué es un Mac?,"Mac es una línea de computadoras personales desarrollada por Apple Inc. que se distingue por su sistema operativo macOS y su diseño de hardware. La primera computadora Macintosh fue lanzada en 1984 y fue una de las primeras en popularizar el uso de una interfaz gráfica de usuario y un mouse.\n\nDesde entonces, la línea de productos Mac ha evolucionado y se ha expandido para incluir computadoras de escritorio como el iMac y la Mac Pro, así como computadoras portátiles como el MacBook Air y el MacBook Pro.\n\nLas computadoras Mac son conocidas por su diseño elegante, su rendimiento confiable y su enfoque en la creatividad y la productividad. El sistema operativo macOS es altamente valorado por su estabilidad, seguridad y capacidad de integración con otros productos de Apple."
+¿Qué es un iPhone?,"El iPhone es una línea de móviles/celulares diseñados y comercializados por Apple Inc. Es uno de los productos más icónicos y populares de la compañía, y ha sido una parte importante de la revolución tecnológica móvil desde que se lanzó por primera vez en 2007.\n\nEl iPhone se destaca por su diseño elegante, sistema operativo iOS y su amplia gama de características y funciones. Algunas de las características distintivas del iPhone incluyen una pantalla táctil capacitiva, una cámara de alta calidad, una variedad de aplicaciones disponibles a través de la App Store y una integración profunda con otros dispositivos y servicios de Apple, como iCloud.\n\nEl último móvil/celular lanzado por Apple de la gama de los iPhone fue el iPhone 14, quitando la versión mini y añadiendo novedades como la Dynamic Island. En septiembre de este año Apple planea lanzar el iPhone 15 junto con iOS 17 según muchos medios conocidos."
