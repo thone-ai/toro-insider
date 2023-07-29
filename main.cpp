@@ -77,6 +77,45 @@ double calculateSimilarity(const std::vector<std::string>& ngrams1, const std::v
     return overlapRatio;
 }
 
+double evaluateExpression(const std::string& expression) {
+    std::istringstream iss(expression);
+    double result = 0.0;
+    char op = '+';
+
+    while (true) {
+        double num;
+        iss >> num;
+
+        if (iss.fail()) {
+            break;
+        }
+
+        switch (op) {
+            case '+':
+                result += num;
+                break;
+            case '-':
+                result -= num;
+                break;
+            case '*':
+                result *= num;
+                break;
+            case '/':
+                if (num != 0.0) {
+                    result /= num;
+                } else {
+                    std::cerr << "Thone AI: No puedes dividir entre 0." << std::endl;
+                    return 0.0;
+                }
+                break;
+        }
+
+        iss >> op;
+    }
+
+    return result;
+}
+
 std::string generateResponse(const std::map<std::vector<std::string>, std::vector<std::string>>& markovChain, const std::string& input, int n) {
     std::random_device rd;
     std::mt19937 gen(rd());
@@ -84,6 +123,12 @@ std::string generateResponse(const std::map<std::vector<std::string>, std::vecto
     std::string response;
     std::vector<std::string> currentNgrams = generateNGrams(input, n);
     int maxWords = 10000;
+
+    if (input.find("cuanto es ") == 0) {
+        std::string mathExpression = input.substr(10);
+        double result = evaluateExpression(mathExpression);
+        return "El resultado es: " + std::to_string(result);
+    }
 
     while (!currentNgrams.empty()) {
         auto it = markovChain.find(currentNgrams);
@@ -179,11 +224,15 @@ void chatWithAI(const std::string& datasetFilePath, int n) {
         const double matchingThreshold = 0.5;
         if (bestMatchScore > matchingThreshold) {
             std::cout << "Thone AI: " << bestMatchAnswer << std::endl;
+        } else if (preprocessedInput.substr(0, 9) == "cuantos es") {
+            std::string mathExpression = preprocessedInput.substr(10);
+            double result = evaluateExpression(mathExpression);
+            std::cout << "Thone AI: El resultado es: " << result << std::endl;
         } else {
             std::string response = generateResponse(markovChain, preprocessedInput, n);
             if (!response.empty()) {
                 std::cout << "Thone AI: " << response << std::endl;
-                        } else {
+            } else {
                 std::cout << "Thone AI: Lo siento, no puedo entender tu pregunta. ¿Puedes intentar reformularla?" << std::endl;
             }
         }
