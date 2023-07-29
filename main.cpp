@@ -46,53 +46,47 @@ std::string preprocess(const std::string& s) {
     return result;
 }
 
-std::vector<std::string> generateNGrams(const std::vector<std::string>& tokens, int n) {
+std::vector<std::string> generateNGrams(const std::string& text, int n) {
     std::vector<std::string> ngrams;
-    int numTokens = tokens.size();
+    int numChars = text.size();
 
-    if (numTokens < n) {
+    if (numChars < n) {
         return ngrams;
     }
 
-    for (int i = 0; i <= numTokens - n; ++i) {
-        std::string ngram;
-        for (int j = 0; j < n; ++j) {
-            if (j > 0) ngram += " ";
-            ngram += tokens[i + j];
-        }
+    for (int i = 0; i <= numChars - n; ++i) {
+        std::string ngram = text.substr(i, n);
         ngrams.push_back(ngram);
     }
 
     return ngrams;
 }
 
-std::string generateResponse(const std::map<std::string, std::vector<std::string>>& markovChain, int n) {
+double calculateSimilarity(const std::vector<std::string>& ngrams1, const std::vector<std::string>& ngrams2) {
+    int commonNgrams = 0;
+    for (const auto& ngram1 : ngrams1) {
+        for (const auto& ngram2 : ngrams2) {
+            if (ngram1 == ngram2) {
+                commonNgrams++;
+                break;
+            }
+        }
+    }
+
+    double overlapRatio = static_cast<double>(commonNgrams) / ngrams1.size();
+    return overlapRatio;
+}
+
+std::string generateResponse(const std::map<std::vector<std::string>, std::vector<std::string>>& markovChain, const std::string& input, int n) {
     std::random_device rd;
     std::mt19937 gen(rd());
 
     std::string response;
-    std::vector<std::string> currentNgramTokens;
+    std::vector<std::string> currentNgrams = generateNGrams(input, n);
     int maxWords = 10000;
 
-    while (currentNgramTokens.size() < n) {
-        auto it = markovChain.find(".");
-        if (it == markovChain.end()) {
-            return response;
-        }
-
-        const auto& startingTokens = it->second;
-        std::uniform_int_distribution<> dis(0, startingTokens.size() - 1);
-        int index = dis(gen);
-        std::string startingToken = startingTokens[index];
-        currentNgramTokens = tokenize(startingToken);
-    }
-
-    while (currentNgramTokens.size() == n) {
-        std::string currentNgram;
-        for (const auto& token : currentNgramTokens) {
-            currentNgram += token + " ";
-        }
-        auto it = markovChain.find(currentNgram);
+    while (!currentNgrams.empty()) {
+        auto it = markovChain.find(currentNgrams);
         if (it == markovChain.end()) {
             break;
         }
@@ -108,60 +102,28 @@ std::string generateResponse(const std::map<std::string, std::vector<std::string
 
         response += nextToken + " ";
 
-        currentNgramTokens.erase(currentNgramTokens.begin());
-        currentNgramTokens.push_back(nextToken);
+        currentNgrams.erase(currentNgrams.begin());
+        if (nextToken.size() >= n) {
+            std::string newNgram = nextToken.substr(nextToken.size() - n, n);
+            currentNgrams.push_back(newNgram);
+        } else {
+            break;
+        }
     }
 
     return response;
 }
 
-std::map<std::string, std::vector<std::string>> buildMarkovChain(const std::vector<std::pair<std::string, std::string>>& data, int n) {
-    std::map<std::string, std::vector<std::string>> markovChain;
+std::map<std::vector<std::string>, std::vector<std::string>> buildMarkovChain(const std::vector<std::string>& questions, const std::vector<std::string>& answers, int n) {
+    std::map<std::vector<std::string>, std::vector<std::string>> markovChain;
 
-    for (const auto& entry : data) {
-        const std::string& question = entry.first;
-        const std::string& answer = entry.second;
-
-        std::istringstream iss(question);
-        std::string token;
-        std::vector<std::string> tokens;
-
-        while (iss >> token) {
-            tokens.push_back(token);
-            if (tokens.size() == n) {
-                std::string ngram;
-                for (const auto& t : tokens) {
-                    ngram += t + " ";
-                }
-                markovChain[ngram].push_back(answer);
-                tokens.erase(tokens.begin());
-            }
-        }
+    for (size_t i = 0; i < questions.size(); ++i) {
+        std::string preprocessedQuestion = preprocess(questions[i]);
+        std::vector<std::string> ngrams = generateNGrams(preprocessedQuestion, n);
+        markovChain[ngrams].push_back(answers[i]);
     }
 
     return markovChain;
-}
-
-void processQuestion(const std::string& input, const std::map<std::string, std::vector<std::string>>& markovChain, int n) {
-    std::vector<std::string> questions;
-    std::string currentQuestion;
-    std::istringstream inputStream(input);
-
-    while (inputStream >> currentQuestion) {
-        questions.push_back(preprocess(currentQuestion));
-    }
-
-    std::string combinedQuestion;
-    for (const auto& q : questions) {
-        combinedQuestion += q + " ";
-    }
-
-    std::string response = generateResponse(markovChain, n);
-    if (!response.empty()) {
-        std::cout << "Thone AI: " << response << std::endl;
-    } else {
-        std::cout << "Thone AI: Lo siento, no puedo entender tu pregunta. ¿Puedes intentar reformularla?" << std::endl;
-    }
 }
 
 void chatWithAI(const std::string& datasetFilePath, int n) {
@@ -172,7 +134,8 @@ void chatWithAI(const std::string& datasetFilePath, int n) {
         return;
     }
 
-    std::vector<std::pair<std::string, std::string>> data;
+    std::vector<std::string> questions;
+    std::vector<std::string> answers;
     std::string line;
 
     while (std::getline(dataset, line)) {
@@ -182,16 +145,17 @@ void chatWithAI(const std::string& datasetFilePath, int n) {
         std::getline(iss, question, ',');
         std::getline(iss, answer);
 
-        data.push_back(std::make_pair(preprocess(question), answer));
+        questions.push_back(question);
+        answers.push_back(answer);
     }
 
+    std::string input;
     std::cout << "ThoneAI: ¡Me alegra verte! ¿Necesitas que te ayude en algo?" << std::endl;
 
-    std::map<std::string, std::vector<std::string>> markovChain = buildMarkovChain(data, n);
+    std::map<std::vector<std::string>, std::vector<std::string>> markovChain = buildMarkovChain(questions, answers, n);
 
     while (true) {
         std::cout << "User: ";
-        std::string input;
         std::getline(std::cin, input);
 
         if (input == "exit") {
@@ -199,7 +163,30 @@ void chatWithAI(const std::string& datasetFilePath, int n) {
             break;
         }
 
-        processQuestion(input, markovChain, n);
+        std::string preprocessedInput = preprocess(input);
+        double bestMatchScore = 0.0;
+        std::string bestMatchAnswer;
+
+        for (const auto& question : questions) {
+            std::string preprocessedQuestion = preprocess(question);
+            double similarity = calculateSimilarity(generateNGrams(preprocessedInput, n), generateNGrams(preprocessedQuestion, n));
+            if (similarity > bestMatchScore) {
+                bestMatchScore = similarity;
+                bestMatchAnswer = answers[&question - &questions[0]];
+            }
+        }
+
+        const double matchingThreshold = 0.5;
+        if (bestMatchScore > matchingThreshold) {
+            std::cout << "Thone AI: " << bestMatchAnswer << std::endl;
+        } else {
+            std::string response = generateResponse(markovChain, preprocessedInput, n);
+            if (!response.empty()) {
+                std::cout << "Thone AI: " << response << std::endl;
+                        } else {
+                std::cout << "Thone AI: Lo siento, no puedo entender tu pregunta. ¿Puedes intentar reformularla?" << std::endl;
+            }
+        }
     }
 
     dataset.close();
@@ -207,7 +194,7 @@ void chatWithAI(const std::string& datasetFilePath, int n) {
 
 int main() {
     std::string datasetFilePath = "dataset.csv";
-    int n = 2;
+    int n = 3;
     chatWithAI(datasetFilePath, n);
 
     return 0;
