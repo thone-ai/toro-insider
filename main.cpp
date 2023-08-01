@@ -171,6 +171,12 @@ std::map<std::vector<std::string>, std::vector<std::string>> buildMarkovChain(co
     return markovChain;
 }
 
+std::string trim(const std::string& str) {
+    std::string result = str;
+    result.erase(std::remove_if(result.begin(), result.end(), ::isspace), result.end());
+    return result;
+}
+
 void chatWithAI(const std::string& datasetFilePathEs, const std::string& datasetFilePathEn, int n) {
     std::ifstream datasetEs(datasetFilePathEs);
     std::ifstream datasetEn(datasetFilePathEn);
@@ -223,6 +229,11 @@ void chatWithAI(const std::string& datasetFilePathEs, const std::string& dataset
     while (true) {
         std::cout << "User: ";
         std::getline(std::cin, input);
+        std::string inputTrimmed = trim(input);
+        if (inputTrimmed == "") {
+            std::cout << "Thone AI: No me has preguntado nada." << std::endl;
+            break;
+        }
 
         if (input == "exit") {
             std::cout << "Thone AI: ¡Adiós! Ten un buen día." << std::endl;
