@@ -171,33 +171,54 @@ std::map<std::vector<std::string>, std::vector<std::string>> buildMarkovChain(co
     return markovChain;
 }
 
-void chatWithAI(const std::string& datasetFilePath, int n) {
-    std::ifstream dataset(datasetFilePath);
+void chatWithAI(const std::string& datasetFilePathEs, const std::string& datasetFilePathEn, int n) {
+    std::ifstream datasetEs(datasetFilePathEs);
+    std::ifstream datasetEn(datasetFilePathEn);
 
-    if (!dataset.is_open()) {
-        std::cout << "Error: no se pudo abrir '" << datasetFilePath << "'" << std::endl;
+    if (!datasetEs.is_open() || !datasetEn.is_open()) {
+        std::cout << "Error: Could not open dataset files." << std::endl;
         return;
     }
 
-    std::vector<std::string> questions;
-    std::vector<std::string> answers;
+    std::vector<std::string> questionsEs;
+    std::vector<std::string> answersEs;
+    std::vector<std::string> questionsEn;
+    std::vector<std::string> answersEn;
+
     std::string line;
 
-    while (std::getline(dataset, line)) {
+    while (std::getline(datasetEs, line)) {
         std::istringstream iss(line);
         std::string question, answer;
 
         std::getline(iss, question, ',');
         std::getline(iss, answer);
 
-        questions.push_back(question);
-        answers.push_back(answer);
+        questionsEs.push_back(question);
+        answersEs.push_back(answer);
     }
+
+    while (std::getline(datasetEn, line)) {
+        std::istringstream iss(line);
+        std::string question, answer;
+
+        std::getline(iss, question, ',');
+        std::getline(iss, answer);
+
+        questionsEn.push_back(question);
+        answersEn.push_back(answer);
+    }
+
+    datasetEs.close();
+    datasetEn.close();
+
+    std::map<std::vector<std::string>, std::vector<std::string>> markovChainEs = buildMarkovChain(questionsEs, answersEs, n);
+    std::map<std::vector<std::string>, std::vector<std::string>> markovChainEn = buildMarkovChain(questionsEn, answersEn, n);
+
+    std::cout << "Training completed with " << questionsEs.size() << " questions in Spanish and " << questionsEn.size() << " questions in English." << std::endl;
 
     std::string input;
     std::cout << "ThoneAI: ¡Me alegra verte! ¿Necesitas que te ayude en algo?" << std::endl;
-
-    std::map<std::vector<std::string>, std::vector<std::string>> markovChain = buildMarkovChain(questions, answers, n);
 
     while (true) {
         std::cout << "User: ";
@@ -212,24 +233,33 @@ void chatWithAI(const std::string& datasetFilePath, int n) {
         double bestMatchScore = 0.0;
         std::string bestMatchAnswer;
 
-        for (const auto& question : questions) {
+        for (const auto& question : questionsEs) {
             std::string preprocessedQuestion = preprocess(question);
             double similarity = calculateSimilarity(generateNGrams(preprocessedInput, n), generateNGrams(preprocessedQuestion, n));
             if (similarity > bestMatchScore) {
                 bestMatchScore = similarity;
-                bestMatchAnswer = answers[&question - &questions[0]];
+                bestMatchAnswer = answersEs[&question - &questionsEs[0]];
+            }
+        }
+
+        for (const auto& question : questionsEn) {
+            std::string preprocessedQuestion = preprocess(question);
+            double similarity = calculateSimilarity(generateNGrams(preprocessedInput, n), generateNGrams(preprocessedQuestion, n));
+            if (similarity > bestMatchScore) {
+                bestMatchScore = similarity;
+                bestMatchAnswer = answersEn[&question - &questionsEn[0]];
             }
         }
 
         const double matchingThreshold = 0.5;
         if (bestMatchScore > matchingThreshold) {
             std::cout << "Thone AI: " << bestMatchAnswer << std::endl;
-        } else if (preprocessedInput.substr(0, 9) == "cuantos es") {
+        } else if (preprocessedInput.substr(0, 9) == "cuanto es") {
             std::string mathExpression = preprocessedInput.substr(10);
             double result = evaluateExpression(mathExpression);
             std::cout << "Thone AI: El resultado es: " << result << std::endl;
         } else {
-            std::string response = generateResponse(markovChain, preprocessedInput, n);
+            std::string response = generateResponse(markovChainEs, preprocessedInput, n);
             if (!response.empty()) {
                 std::cout << "Thone AI: " << response << std::endl;
             } else {
@@ -237,14 +267,14 @@ void chatWithAI(const std::string& datasetFilePath, int n) {
             }
         }
     }
-
-    dataset.close();
 }
 
 int main() {
-    std::string datasetFilePath = "dataset.csv";
+    std::string datasetFilePathEs = "dataset_es.csv";
+    std::string datasetFilePathEn = "dataset_en.csv";
     int n = 3;
-    chatWithAI(datasetFilePath, n);
+
+    chatWithAI(datasetFilePathEs, datasetFilePathEn, n);
 
     return 0;
 }
