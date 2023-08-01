@@ -1,12 +1,13 @@
 question,answer
+What are you?,Hello! I am Thone AI ToRo, an artificial intelligence model developed by Thone AI. What do you need? I'm here to help you.
 Who are you?,Hello! I am Thone AI ToRo, an artificial intelligence model developed by Thone AI. What do you need? I'm here to help you.
 What is your function?,I'm here to answer questions and provide current information to assist you in your daily life and make it easier for you. What do you need?
 Who won the last World Cup?,The 2022 World Cup was held in Qatar, where Argentina emerged as the winner. It was an exciting match full of twists, as Argentina was leading 2-0 against France until the French player Kylian Mbappe equalized the game in just 2 minutes. However, Argentina didn't give up, and after a penalty caused by the French right-winger Ousmane Dembele, Lionel Messi scored the 3-2 in favor of Argentina in the 107th minute. But Kylian Mbappe scored from a penalty in the 117th minute, completing a hat-trick and equalizing the score again. Then came the penalty shootout, where the Argentine team scored 4-2 against the French team, proclaiming themselves champions of the 2022 Qatar World Cup and securing their third World Cup title.
 What is your name?,My name is Thone AI ToRo.
-What is your name?,My name is Thone AI ToRo.
-What is your last name?,I don't have a last name; I am Thone AI ToRo.
-What is your last name?,I don't have a last name; I am Thone AI ToRo.
-What is Thone AI?,Thone AI is an artificial intelligence project founded by two people: Álvaro 842 and DisamDev, in January 2023, with open-source models like ToRo, which is currently in its first version called 'ToRo-1'. This project aims to take AI to the next level and make it available for everyone.
+Who is Alvaro 842?,Alvaro 842 is a web developer and founder of Thone AI, the project behind this model, Thone AI ToRo.
+Who is DisamDev?,DisamDev is a web developer and founder of Thone AI, the project behind this model, Thone AI ToRo.
+What is your last name?,I do not have a last name, I am Thone AI ToRo.
+What is Thone AI?,Thone AI is an artificial intelligence project founded by two people: Álvaro 842 and DisamDev, in January 2023, with open-source models like ToRo, which is currently in its first version called 'ToRo-1', you can try it in https://toro.thoneai.com. This project aims to take AI to the next level and make it available for everyone.
 What is the capital of Afghanistan?,The capital of Afghanistan is Kabul.
 What is the capital of Albania?,The capital of Albania is Tirana.
 What is the capital of Angola?,The capital of Angola is Luanda.
@@ -83,7 +84,7 @@ What is the capital of Saint Kitts and Nevis?,The capital of Saint Kitts and Nev
 What is the capital of San Marino?,The capital of San Marino is San Marino.
 What is the capital of Saint Vincent and the Grenadines?,The capital of Saint Vincent and the Grenadines is Kingstown.
 What is the capital of Saint Lucia?,The capital of Saint Lucia is Castries.
-What is the capital of Sao Tome and Principe?",The capital of Sao Tome and Principe is São Tomé.
+What is the capital of Sao Tome and Principe?,The capital of Sao Tome and Principe is São Tomé.
 What is the capital of Senegal?,The capital of Senegal is Dakar.
 What is the capital of Serbia?,The capital of Serbia is Belgrade.
 What is the capital of Seychelles?,The capital of Seychelles is Victoria.
@@ -121,21 +122,21 @@ What is the capital of Yemen?,The capital of Yemen is Sana'a.
 What is the capital of Djibouti?,The capital of Djibouti is Djibouti.
 What is the capital of Zambia?,The capital of Zambia is Lusaka.
 What is the capital of Zimbabwe?,The capital of Zimbabwe is Harare.
-What is the capital of Albania?,The capital of Albania is Tirana.
-What is the capital of Germany?,The capital of Germany is Berlin.
-What is the capital of Andorra?,The capital of Andorra is Andorra la Vella.
+What is the capital of Albania?, The capital of Albania is Tirana.
+What is the capital of Germany?, The capital of Germany is Berlin.
+What is the capital of Andorra?, The capital of Andorra is Andorra la Vella.
 What is the capital of Antigua and Barbuda?,The capital of Antigua and Barbuda is Saint John's.
-What is the capital of Algeria?,The capital of Algeria is Algiers.
-What is the capital of Argentina?,The capital of Argentina is Buenos Aires.
-What is the capital of Azerbaijan?,The capital of Azerbaijan is Baku.
-What is the capital of the Bahamas?,The capital of the Bahamas is Nassau.
+What is the capital of Algeria?, The capital of Algeria is Algiers.
+What is the capital of Argentina?, The capital of Argentina is Buenos Aires.
+What is the capital of Azerbaijan?, The capital of Azerbaijan is Baku.
+What is the capital of the Bahamas?, The capital of the Bahamas is Nassau.
 What is the capital of Barbados?,The capital of Barbados is Bridgetown.
 What is the capital of Bahrain?,The capital of Bahrain is Manama.
 What is the capital of Belgium?,The capital of Belgium is Brussels.
 What is the capital of Belize?,The capital of Belize is Belmopan.
 What is the capital of Belarus?,The capital of Belarus is Minsk.
 What is the capital of Bolivia?,The capital of Bolivia is Sucre.
-What is the capital of Bosnia and Herzegovina?",The capital of Bosnia and Herzegovina is Sarajevo.
+What is the capital of Bosnia and Herzegovina?,The capital of Bosnia and Herzegovina is Sarajevo.
 What is the capital of Brazil?,The capital of Brazil is Brasilia.
 What is the capital of Brunei?,The capital of Brunei is Bandar Seri Begawan.
 What is the capital of Bulgaria?,The capital of Bulgaria is Sofia.
@@ -322,8 +323,8 @@ What is Scikit-learn?,Scikit-learn is an open-source machine learning library ba
 What is Stack Overflow?,Stack Overflow is a question and answer website covering almost any branch of computer science. The interesting thing about Stack Overflow is that if you have a question or problem, you can upload it with as much detail and description as possible so that someone can support and provide a solution.
 What is Figma?,Figma is a very useful design tool that has many advantages, especially in terms of team collaboration and versatility. Although it has some limitations, it remains an excellent choice for designers and work teams.
 What is Discloud?,Discloud is a hosting service for websites and Discord bots. Its default language is Portuguese, but it also supports English. According to its website, it has +50k monthly deploys, +37k users, and +3684 hosted bots/websites.
-What is the DotCSV channel?,DotCSV is a channel related to the topic of artificial intelligence. Its creator is Carlos Santana, and the channel was created on Feb 18, 2017, on YouTube. It started uploading videos 5 years ago with the video "Lo que YA sabes sobre Inteligencia Artificial | DotCSV". Currently, it uploads videos related to new artificial intelligence models from Meta, OpenAI, voice cloning with VoiceLab from ElevenLabs, among other general concepts of artificial intelligence like DeepMind. Its latest video is "LLAMA 2: La Revolución *OPEN SOURCE* de Meta contra ChatGPT".
-Who is DotCSV?,DotCSV is a channel related to the topic of artificial intelligence. Its creator is Carlos Santana, and the channel was created on Feb 18, 2017, on YouTube. It started uploading videos 5 years ago with the video "Lo que YA sabes sobre Inteligencia Artificial | DotCSV". Currently, it uploads videos related to new artificial intelligence models from Meta, OpenAI, voice cloning with VoiceLab from ElevenLabs, among other general concepts of artificial intelligence like DeepMind. Its latest video is "LLAMA 2: La Revolución *OPEN SOURCE* de Meta contra ChatGPT".
+What is the DotCSV channel?,DotCSV is a channel related to the topic of artificial intelligence. Its creator is Carlos Santana, and the channel was created on Feb 18, 2017, on YouTube. It started uploading videos 5 years ago with the video "Lo que YA sabes sobre Inteligencia Artificial | DotCSV". Currently, it uploads videos related to new artificial intelligence models from Meta, OpenAI, voice cloning with VoiceLab from ElevenLabs, among other general concepts of artificial intelligence like DeepMind.
+Who is DotCSV?,DotCSV is a channel related to the topic of artificial intelligence. Its creator is Carlos Santana, and the channel was created on Feb 18, 2017, on YouTube. It started uploading videos 5 years ago with the video "Lo que YA sabes sobre Inteligencia Artificial | DotCSV". Currently, it uploads videos related to new artificial intelligence models from Meta, OpenAI, voice cloning with VoiceLab from ElevenLabs, among other general concepts of artificial intelligence like DeepMind.
 What is discord.py?,discord.py is a Python library that allows interacting with Discord through its API. It can be installed using `pip install discord.py`. Discord is a very popular chat and voice application mainly used by gamers and online communities to stay connected and communicate while playing or collaborating on different projects on other topics.
 What is discord.js?,discord.js is an NPM library that allows interacting with Discord through its API. It can be installed using `npm install discord.py`. Discord is a very popular chat and voice application mainly used by gamers and online communities to stay connected and communicate while playing or collaborating on different projects on other topics.
 What is TypeScript?,TypeScript is a programming language and a superset for JavaScript developed by Microsoft. TypeScript extends and enhances the capabilities of JavaScript by adding additional features and development tools. The main feature of TypeScript is the addition of an optional static type system that allows developers to specify types for variables, function parameters, return values, among others.
