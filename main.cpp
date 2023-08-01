@@ -166,6 +166,12 @@ std::map<std::vector<std::string>, std::vector<std::string>> buildMarkovChain(co
         std::string preprocessedQuestion = preprocess(questions[i]);
         std::vector<std::string> ngrams = generateNGrams(preprocessedQuestion, n);
         markovChain[ngrams].push_back(answers[i]);
+
+        size_t pos = questions[i].find('(');
+        if (pos != std::string::npos) {
+            std::string synonym = preprocess(questions[i].substr(pos + 1, questions[i].find(')', pos) - pos - 1));
+            markovChain[ngrams].push_back(synonym);
+        }
     }
 
     return markovChain;
