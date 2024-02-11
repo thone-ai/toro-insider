@@ -10,8 +10,6 @@ from transformers import TrainingArguments
 
 instruct_tune_dataset_1 = load_dataset("json", data_files="train.jsonl", split="train")
 instruct_tune_dataset_2 = load_dataset("mosaicml/dolly_hhrlhf", split="train")
-instruct_tune_dataset_3 = load_dataset("wikimedia/wikipedia", split="train")
-instruct_tune_dataset_4 = load_dataset("somosnlp/recetas-cocina", split="train")
 combined_dataset = concatenate_datasets([instruct_tune_dataset_1, instruct_tune_dataset_2])
 
 print(create_prompt(combined_dataset[4]))
